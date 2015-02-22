@@ -1,0 +1,100 @@
+from Model.Entities.TvShow import TvShowClass as TvShow
+
+class TvShowManagerClass():
+    """TvShow entity manager"""
+    
+    def ListTvShows(self):
+        tvShows = []
+        # Add Tv shows to the list
+        tvShows.append(TvShow("a5d77ca6-61cd-4b24-bb05-679da4bfab9d",
+                              "Breaking Bad", 
+                              "http://upload.wikimedia.org/wikipedia/en/6/61/Breaking_Bad_title_card.png", 
+                              "https://www.youtube.com/watch?v=HhesaQXLuRY",
+                              "http://www.imdb.com/title/tt0903747/",
+                              "http://en.wikipedia.org/wiki/Breaking_Bad",
+                              "2008 - 2013",
+                              "43 - 58",
+                              "5",
+                              "AMC"))
+        tvShows.append(TvShow("26b67513-66fa-4567-b061-291ecb983477",
+                              "Bewitched", 
+                              "http://upload.wikimedia.org/wikipedia/en/9/9e/Bewitched_color_title_card.jpg", 
+                              "https://www.youtube.com/watch?v=eoGV8kOcOqM",
+                              "http://www.imdb.com/title/tt0057733/",
+                              "http://en.wikipedia.org/wiki/Bewitched",
+                              "1964 - 1972",
+                              "25",
+                              "8",
+                              "ABC"))
+        tvShows.append(TvShow("0ce9f2f6-1e5c-4a99-838b-d7607168559d",
+                              "Elementary", 
+                              "http://upload.wikimedia.org/wikipedia/en/6/69/Elementary_intertitle.png", 
+                              "https://www.youtube.com/watch?v=7FobtXjLw48",
+                              "http://www.imdb.com/title/tt2191671/",
+                              "http://en.wikipedia.org/wiki/Elementary_(TV_series)",
+                              "2012 - Present",
+                              "43 - 46",
+                              "3",
+                              "CBS"))
+        tvShows.append(TvShow("e958cf3d-0288-4a0a-a178-ee663af1366e",
+                              "The Musketeers", 
+                              "http://upload.wikimedia.org/wikipedia/en/0/06/The_Musketeers_titlecard.jpg", 
+                              "https://www.youtube.com/watch?v=pmDWE8Jy9EE",
+                              "http://www.imdb.com/title/tt2733252/",
+                              "http://en.wikipedia.org/wiki/The_Musketeers",
+                              "2014 - Present",
+                              "54 - 60",
+                              "2",
+                              "BBC One"))
+        tvShows.append(TvShow("45c30118-08cd-4e8d-9894-16ab71d3de8b",
+                              "Fargo", 
+                              "http://upload.wikimedia.org/wikipedia/en/9/97/FargoTVIntertitle.png", 
+                              "https://www.youtube.com/watch?v=gKs8DzjPDMU",
+                              "http://www.imdb.com/title/tt2802850/",
+                              "http://en.wikipedia.org/wiki/Fargo_(TV_series)",
+                              "2014 - Present",
+                              "48 - 53",
+                              "1",
+                              "FX"))
+        tvShows.append(TvShow("45b5e80f-f126-4a74-84b0-38d98f1d56a4",
+                              "Twin Peaks", 
+                              "http://upload.wikimedia.org/wikipedia/en/e/ea/TwinPeaks_openingshotcredits.jpg", 
+                              "https://www.youtube.com/watch?v=UXjTEw9Qm0k",
+                              "http://www.imdb.com/title/tt0098936/?",
+                              "http://en.wikipedia.org/wiki/Twin_Peaks",
+                              "1990 - 1991",
+                              "47 - 90",
+                              "2",
+                              "ABC"))
+        tvShows.append(TvShow("9db5026c-76b6-4da8-bebe-a3591128dab1",
+                              "12 Monkeys", 
+                              "http://upload.wikimedia.org/wikipedia/en/f/fb/12_Monkeys_Intertitle.png", 
+                              "https://www.youtube.com/watch?v=wZNcVYqnCFw",
+                              "http://www.imdb.com/title/tt3148266/",
+                              "http://en.wikipedia.org/wiki/12_Monkeys_(TV_series)",
+                              "2015 - Present",
+                              "45",
+                              "1",
+                              "Syfy"))
+        tvShows.append(TvShow("15ba2050-1d62-4693-ba04-5f8d71597b98",
+                              "V", 
+                              "http://upload.wikimedia.org/wikipedia/commons/7/7f/V_2009_Intertitle.png", 
+                              "https://www.youtube.com/watch?v=Rrd7a1pADhc",
+                              "http://www.imdb.com/title/tt1307824/",
+                              "http://en.wikipedia.org/wiki/V_(2009_TV_series)",
+                              "2009 - 2011",
+                              "45",
+                              "2",
+                              "ABC"))
+        tvShows.append(TvShow("ee91df87-60b9-4766-b5f0-1934809815e7",
+                              "Dracula", 
+                              "http://upload.wikimedia.org/wikipedia/en/7/7f/Dracula_tv_series_titlecard.jpg", 
+                              "https://www.youtube.com/watch?v=0ckkoZLB5Y0",
+                              "http://www.imdb.com/title/tt2296682/",
+                              "http://en.wikipedia.org/wiki/Dracula_(TV_series)",
+                              "2013 - 2014",
+                              "43",
+                              "1",
+                              "NBC (US), Sky Living (UK)"))
+        
+        return tvShows
