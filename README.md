@@ -8,7 +8,7 @@ e.g. on Windows OS CMD:
 cd C:\Project1__Movie_Trailer_Website
 python "C:\\Project1__Movie_Trailer_Website\\Main.py"
 
-Note: Application creates "fresh_tomatoes.html" and this file has to be in the 
+*Note:* Application creates "fresh_tomatoes.html" and this file has to be in the 
 same directory as Main.py file, because there is "public" folder what content 
 (JavaScript, CSS, image files) is used by "fresh_tomatoes.html"
 
